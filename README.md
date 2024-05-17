@@ -26,6 +26,8 @@ A CNN-based tool for segmentation of white matter hyperintensities (WMH) on FLAI
  
 ## **ii) Installation**
 
+note: new version is planned for release june 1, 2024 with updated PVS segmentation models
+
 >**Singularity Users**
 >* download segcsvd_rc02.sif from: 
 > https://s3.us-east.cloud-object-storage.appdomain.cloud//cloud-synthsegcsvdrc05/segcsvd_rc02.sif
