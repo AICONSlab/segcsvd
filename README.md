@@ -29,13 +29,13 @@ A CNN-based tool for segmentation of white matter hyperintensities (WMH) on FLAI
 note: new version is planned for release june 1, 2024 with updated PVS segmentation models
 
 >**Singularity Users**
->* download segcsvd_rc02.sif from: 
-> https://s3.us-east.cloud-object-storage.appdomain.cloud//cloud-synthsegcsvdrc05/segcsvd_rc02.sif
+>* download segcsvd_rc03.sif from: 
+> https://s3.us-east.cloud-object-storage.appdomain.cloud//cloud-synthsegcsvdrc05/segcsvd_rc03.sif
 >
 >**Docker Users**
->* download segcsvd_rc02.tar.gz from:
->  https://s3.us-east.cloud-object-storage.appdomain.cloud//cloud-synthsegcsvdrc05/segcsvd_rc02.tar.gz
->* install: `sudo docker load -i segcsvd_rc02.tar.gz`
+>* download segcsvd_rc03.tar.gz from:
+>  https://s3.us-east.cloud-object-storage.appdomain.cloud//cloud-synthsegcsvdrc05/segcsvd_rc03.tar.gz
+>* install: `sudo docker load -i segcsvd_rc03.tar.gz`
 
 <br>
  
@@ -83,7 +83,7 @@ in_dir=$(pwd)
 out_dir=${in_dir}
 flair_fn=FLAIR.nii.gz
 synth_fn=synthseg.nii.gz
-sif=${HOME}/segcsvd_rc02.sif
+sif=${HOME}/segcsvd_rc03.sif
 out_fn=seg_wmh.nii.gz
 seg_wmh_thr=0.35
 skip_mask_and_bias=true
@@ -158,7 +158,7 @@ sudo docker run \
 in_dir=$(pwd)
 out_dir=${in_dir}
 t1_fn=T1.nii.gz
-sif=${HOME}/segcsvd_rc02.sif
+sif=${HOME}/segcsvd_rc03.sif
 seg_wmh_fn=thr_seg_wmh.nii.gz
 synth_fn=synthseg.nii.gz
 out_fn=seg_pvs.nii.gz
