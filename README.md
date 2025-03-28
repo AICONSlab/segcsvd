@@ -48,7 +48,7 @@ A CNN-based tool for segmentation of white matter hyperintensities (WMH) on FLAI
 >
 > **General requirements for the FLAIR/T1 input images:**
 >* **Intensity values**: should begin at 0 (background) -- negative voxels will be ignored
->* **Masking and bias correction**: the "skip_mask_and_bias" option should be set to false if FLAIR/T1 images are not already masked and bias corrected
+>* **Masking and bias correction**: the "skip_mask_and_bias" option should be set to false if FLAIR/T1 images are not already skull-stripped and bias corrected
 >
  
 
@@ -98,7 +98,7 @@ where:
 > 
 > **seg_wmh_thr** : threshold for binarizing WMH segmentation output 
 >
-> **skip_mask_and_bias** : true | false (true if FLAIR has been masked and bias corrected, otherwise false)
+> **skip_mask_and_bias** : true | false (true if FLAIR has been skull-stripped and bias corrected, otherwise false)
 >
 > **cleanup** : true | false (true to remove temporary files, otherwise false)
 
