@@ -3,9 +3,11 @@
 A CNN-based tool for segmentation of white matter hyperintensities (WMH) on FLAIR MRI and enlarged perivascular spaces (PVS) on T1 MRI 
 
 
-## **UPDATE**
+## **UPDATES**
 
+* 20260210: PVS paper now published (see citation below)
 * 20250731: PVS segmentation now available
+
 
 ## **i) Overview**
 * **Purpose and Development**: segcsvd was developed to improve segmentation accuracy for large-scale, heterogenous imaging datasets with varying degrees of cerebrovascular disease (CVSD) burden
@@ -15,7 +17,7 @@ A CNN-based tool for segmentation of white matter hyperintensities (WMH) on FLAI
 
     * **SynthSeg:** B Billot, DN Greve, O Puonti, A Thielscher, K Van Leemput, B Fischl, AV Dalca, JE Iglesias.Segmentation of brain MRI scans of any contrast and resolution without retraining. Medical Image Analysis, 83, 102789 (2023). 
     * **segcsvd<sub>WMH</sub>:** Gibson E, Ramirez J, Woods LA, Ottoy J, Berberian S, Scott CJM, Yhap V, Gao F, Coello RD, Valdes Hernandez M, Lang AE, Tartaglia CM, Kumar S, Binns MA, Bartha R, Symons S, Swartz RH, Masellis M, Singh N, Moody A, MacIntosh BJ, Wardlaw JM, Black SE, Lim ASP, Goubran M; ONDRI Investigators, ADNI, CAIN Investigators, colleagues from the Foundation Leducq Transatlantic Network of Excellence. segcsvdWMH: A Convolutional Neural Network-Based Tool for Quantifying White Matter Hyperintensities in Heterogeneous Patient Cohorts. Hum Brain Mapp. 2024 Dec 15;45(18):e70104. doi: 10.1002/hbm.70104. PMID: 39723488; PMCID: PMC11669893.
-    * **segcsvd<sub>PVS</sub>:** Gibson E, Ramirez H, Woods LA, Berberian S, Ottoy H, Scott CJM, Yhap V, Gao F, Coello RD, Valdes-Hernandez M, Lang AE, Tartaglia CM, Kumar S, Binns MA, Bartha R, Symons S, Swartz RH, Masellis M, Singh N, MacIntosh BJ, Wardlaw JM, Black SE, ONDRI Investigators, ADNI, CAIN Investigators, colleagues from the Foundation Leducq Transatlantic Network of Excellence, Lim ASP, Goubran M. segcsvd<sub>PVS</sub>: A convolutional neural network-based tool for quantification of enlarged perivascular spaces (PVS) on T1-weighted images. medRxiv 2025.07.29.25332360; doi: https://doi.org/10.1101/2025.07.29.25332360
+    * **segcsvd<sub>PVS</sub>:** Gibson E, Ramirez J, Woods LA, Berberian S, Ottoy J, Scott CJM, Yhap V, Gao F, Coello RD, Valdes Hernandez M, Lang AE, Tartaglia CM, Kumar S, Binns MA, Bartha R, Symons S, Swartz RH, Masellis M, Singh N, MacIntosh BJ, Wardlaw JM, Black SE; ONDRI Investigators, ADNI, CAHHM Investigators, CAIN Investigators, colleagues from the Foundation Leducq Transatlantic Network of Excellence; Lim ASP, Goubran M. segcsvdPVS: A Convolutional Neural Network-Based Tool for Quantification of Enlarged Perivascular Spaces (PVS) on T1-Weighted Images. Hum Brain Mapp. 2026 Feb 1;47(2):e70462. doi: 10.1002/hbm.70462. PMID: 41641899; PMCID: PMC12874998.
 
  <br>
 
